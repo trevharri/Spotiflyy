@@ -28,7 +28,7 @@ const SongCard = ({song, isPlaying, activeSong, i, data}) => {
             handlePlay={handlePlayClick}
           />
         </div>
-        <img alt="song_img" src={song.images?.coverart} className='rounded-lg'/>
+        <img alt="song_img" src={song.images?.coverart} className='rounded-lg aspect-square'/>
       </div>
       <div className='mt-4 flex flex-col justify-center'>
         <Link to={`/songs/${song?.key}`}>
