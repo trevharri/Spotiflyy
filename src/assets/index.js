@@ -1,9 +1,9 @@
 import loader from './loader.svg';
 import logo from './logo.svg';
-import musicLogo from './musicLogo.png'
+import newMusicLogo from './newMusicLogo.png'
 
 export {
   logo,
   loader,
-  musicLogo,
+  newMusicLogo,
 };
